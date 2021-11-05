@@ -4,6 +4,8 @@ patch:
 
   # 以下软件默认英文模式
   # osascript -e 'id of app "SomeApp"'
+    # ascii_mode : true   #最终为西文模式
+    # vim_mode : true     #退出VIM模式自动切换输入法状态
   app_options:
     com.apple.dt.Xcode:
       ascii_mode: true
@@ -24,8 +26,10 @@ patch:
       vim_mode: true
     com.apple.Terminal:
       ascii_mode: true
+      vim_mode: true
     com.googlecode.iterm2:
       ascii_mode: true
+      vim_mode: true
 
 # 如果想要修改皮肤，直接更改 color_scheme 的值即可
   style:
