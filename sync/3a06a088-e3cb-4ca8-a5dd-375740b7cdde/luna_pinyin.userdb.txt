@@ -1,0 +1,30 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin
+#@/db_type	userdb
+#@/rime_version	1.7.3
+#@/tick	35
+#@/user_id	3a06a088-e3cb-4ca8-a5dd-375740b7cdde
+a 	啊	c=2 d=1.87372 t=34
+a ni 	阿尼	c=2 d=1.86936 t=32
+a si dun 	阿斯頓	c=2 d=1.99501 t=11
+ai 	愛	c=0 d=0.1 t=32
+ai ao sa dao 	埃奥萨岛	c=1 d=1 t=6
+ai shen bian de jiu shi ai 	愛身邊的就是愛	c=1 d=1 t=33
+cha kan 	查看	c=2 d=1.98511 t=29
+cheng xu 	程序	c=2 d=1.99005 t=16
+de 	的	c=0 d=0.1 t=32
+huo qu 	獲取	c=3 d=2.86516 t=30
+jiu shi ai 	就是愛	c=0 d=0.1 t=32
+ka kua ke 	卡夸科	c=1 d=1 t=2
+kan kan 	看看	c=2 d=1.99005 t=3
+ming cheng 	名稱	c=1 d=1 t=19
+ming zi 	名字	c=2 d=1.96079 t=17
+mo ren 	默認	c=1 d=1 t=22
+ni 	你	c=1 d=1 t=35
+ni hao 	你好	c=1 d=1 t=5
+ru he 	如何	c=1 d=1 t=25
+shen bian 	身邊	c=0 d=0.1 t=32
+te ding 	特定	c=1 d=1 t=23
+xin xi biao 	信息表	c=1 d=1 t=28
+ying yong 	應用	c=7 d=6.69509 t=27
+ying yong cheng xu 	應用程序	c=1 d=1 t=31
