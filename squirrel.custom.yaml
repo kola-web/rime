@@ -11,8 +11,6 @@ patch:
       ascii_mode: true
     com.runningwithcrayons.Alfred:
       ascii_mode: true
-    com.google.Chrome:
-      ascii_mode: true
     com.apple.finder:
       ascii_mode: true
     com.microsoft.VSCode:
@@ -30,11 +28,16 @@ patch:
     com.googlecode.iterm2:
       ascii_mode: true
       vim_mode: true
+    com.google.Chrome:
+      ascii_mode: true
+      vim_mode: true
+
 
 # 如果想要修改皮肤，直接更改 color_scheme 的值即可
   style:
     color_scheme: apathy
     font_face: "PingFangSC"  # 字體名稱，從記事本等處的系統字體對話框裏能看到
+    # font_face: "Apple Chancery"  # 字體名稱，從記事本等處的系統字體對話框裏能看到
     font_point: 14     # 字號，只認數字的，不認「五號」、「小五」這樣的
 
   preset_color_schemes:
