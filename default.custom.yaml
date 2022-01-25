@@ -2,7 +2,7 @@ patch:
   schema_list:
     - schema: luna_pinyin_simp
     - schema: double_pinyin_flypy # 小鹤双拼
-    - schema: luna_pinyin # 全拼
+    - schema: lFna_pinyin # 全拼
     # - schema: double_pinyin # 自然码
   switcher/hotkeys:
     - "command+grave" # 注意是control+`，不是command+`
