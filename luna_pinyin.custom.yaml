@@ -31,7 +31,7 @@ patch:
     name: 明月拼音
     # dependencies: # 反查
     #   - liangfen # 反查
-  
+
   # 載入朙月拼音擴充詞庫
   "translator/dictionary": luna_pinyin.extended
   #  拼写纠错
@@ -72,7 +72,7 @@ patch:
     #- derive/^([bpmf])eng$/$1ong/      # meng = mong, ...
     #- derive/([ei])n$/$1ng/            # en => eng, in => ing
     #- derive/([ei])ng$/$1n/            # eng => en, ing => in
- 
+
     #自制
     #- derive/^([sj])hen$/$1ehn/
 
@@ -99,7 +99,7 @@ patch:
     #- derive/^fei$/fi/                 # fei => fi
     #- derive/^wei$/vi/                 # wei => vi
     #- derive/^([nl])ei$/$1ui/          # nei => nui, lei => lui
-    #- derive/^([nlzcs])un$/$1vn/       # lun => lvn, zun => zvn, ... 
+    #- derive/^([nlzcs])un$/$1vn/       # lun => lvn, zun => zvn, ...
     #- derive/^([nlzcs])ong$/$1iong/    # long => liong, song => siong, ...
     # 這個辦法雖從拼寫上做出了區分，然而受詞典制約，候選字仍是混的。
     # 只有真正的方音輸入方案纔能做到！但「反模糊音」這個玩法快速而有效！
@@ -128,7 +128,7 @@ patch:
 
   switches:
     - name: ascii_mode
-      reset: 1
+      reset: 0
       states: [ 中文, 西文 ]
     - name: emoji_suggestion
       reset: 1
@@ -173,7 +173,7 @@ patch:
     opencc_config: emoji.json
     option_name: emoji_suggestion
     # tips: all
-  
+
   punctuator:
     import_preset: symbols
     # 自定义快捷符号输入
